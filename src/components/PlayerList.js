@@ -24,10 +24,5 @@ const PlayerList = (props) => {
   );
 }
 
-PlayerList.propTypes = {
-  players: PropTypes.arrayOf(PropTypes.object),
-  changeScore: PropTypes.func.isRequired,
-  removePlayer: PropTypes.func.isRequired,
-};
 
 export default PlayerList;
