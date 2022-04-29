@@ -1,7 +1,7 @@
 import React from 'react';
 import { Consumer } from './Context';
 
-const AddPlayerForm = (props) => {
+const AddPlayerForm = () => {
 
   const playerInput = React.createRef();
 
